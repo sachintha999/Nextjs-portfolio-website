@@ -1,9 +1,14 @@
 import React from 'react'
+import Nav from './Components/Nav';
 
 const HomePage = () => {
-  return (
-    <div className="text-9xl text-red-900">HomePage new cxhange</div>
-  )
+  return <div className='overflow-x-hidden'>
+    <div>
+      <Nav />
+    </div>
+
+
+  </div>;
 }
 
 export default HomePage
